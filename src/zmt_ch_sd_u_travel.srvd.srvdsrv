@@ -1,0 +1,6 @@
+@EndUserText.label: 'uNDEFINED'
+define service ZMT_CH_SD_U_Travel {
+  expose ZMT_CH_X_U_TRAVEL as Travel;
+  expose ZMT_CH_U_CUSTOMER as Customer;
+  expose ZMT_CH_U_AGENCY   as Agency;
+}
